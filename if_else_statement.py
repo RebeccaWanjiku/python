@@ -12,4 +12,8 @@ elif score>=60:
 elif score >=50:
             grade="E"
 
+else:
+        grade ="E"
+
+
 print(f"Your grade is {grade}")
