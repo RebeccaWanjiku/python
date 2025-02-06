@@ -3,3 +3,8 @@ def     habari(name, age, gender):
 
 habari(name="Becca" , age=30, gender="Female")
 habari(name="George" ,age=55 ,gender="Male")
+
+ def  sum_of_two_numbers (num1, num2):
+        return num1+num2
+anw = sum_of_two_numbers(num1=5, num2=9)
+ print(anw)
