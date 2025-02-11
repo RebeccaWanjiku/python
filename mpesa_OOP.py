@@ -22,15 +22,15 @@ class Account:
 
 # inheritance
 class Customer (Account):
-        def __init__(self,account_id,holder_name,balance,phone_number):
+            def __init__(self,account_id,holder_name,balance,phone_number):
                 super().__init__(account_id, holder_name, balance)
                 self,phone_number= phone_number
 
 # polymorphism
 class Transaction():
      def  __init__(self,amount):
-         self.amount=amount
-    def execute(self,amount):
+               self.amount=amount
+      def  execute(self,amount):
                     pass
 class Deposittransaction(Transaction):
     def execute(self,account):
